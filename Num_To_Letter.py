@@ -79,4 +79,4 @@ def convert_to_words(number):
 
 if __name__ == '__main__':
    number = sys.argv[1]
-   print('%d in words is: %s' %(number, convert_to_words(number)))
+   print('%s in words is: %s' %(number, convert_to_words(number)))
