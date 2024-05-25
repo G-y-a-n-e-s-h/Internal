@@ -3,7 +3,7 @@ Coverting Number to Letters....
 -------------------------------------------------------------
 '''
 
-
+import sys
 ones = (
    'Zero', 'One', 'Two', 'Three', 'Four',
    'Five', 'Six', 'Seven', 'Eight', 'Nine'
@@ -78,5 +78,5 @@ def convert_to_words(number):
    return final_words
 
 if __name__ == '__main__':
-   number = int(input('Enter any number: '))
+   number = sys.argv[1]
    print('%d in words is: %s' %(number, convert_to_words(number)))
